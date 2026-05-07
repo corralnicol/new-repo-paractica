@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Solar Norte",
+    "location": "Bogotá",
+    "capacity": 500,
+    "status": "Activo",
+    "description": "Proyecto principal de energía solar."
+  },
+  {
+    "id": 2,
+    "name": "EcoSun Cali",
+    "location": "Cali",
+    "capacity": 300,
+    "status": "Pendiente",
+    "description": "Instalación en fase de aprobación."
+  },
+  {
+    "id": 3,
+    "name": "Green Valley",
+    "location": "Medellín",
+    "capacity": 750,
+    "status": "Mantenimiento",
+    "description": "Paneles en revisión técnica."
+  },
+  {
+    "id": 4,
+    "name": "Solar Energy 4",
+    "location": "Barranquilla",
+    "capacity": 620,
+    "status": "Activo",
+    "description": "Proyecto solar urbano."
+  },
+  {
+    "id": 5,
+    "name": "Solar Energy 5",
+    "location": "Cartagena",
+    "capacity": 450,
+    "status": "Pendiente",
+    "description": "Proyecto en construcción."
+  },
+  {
+    "id": 6,
+    "name": "Solar Energy 6",
+    "location": "Pereira",
+    "capacity": 800,
+    "status": "Activo",
+    "description": "Generación para zona industrial."
+  },
+  {
+    "id": 7,
+    "name": "Solar Energy 7",
+    "location": "Manizales",
+    "capacity": 200,
+    "status": "Mantenimiento",
+    "description": "Mantenimiento preventivo."
+  },
+  {
+    "id": 8,
+    "name": "Solar Energy 8",
+    "location": "Bucaramanga",
+    "capacity": 910,
+    "status": "Activo",
+    "description": "Alta producción energética."
+  },
+  {
+    "id": 9,
+    "name": "Solar Energy 9",
+    "location": "Santa Marta",
+    "capacity": 340,
+    "status": "Pendiente",
+    "description": "Proyecto costero."
+  },
+  {
+    "id": 10,
+    "name": "Solar Energy 10",
+    "location": "Cúcuta",
+    "capacity": 700,
+    "status": "Activo",
+    "description": "Sistema híbrido."
+  }
+]
