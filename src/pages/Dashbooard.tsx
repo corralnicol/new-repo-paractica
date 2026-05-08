@@ -20,29 +20,24 @@ function Dashboard() {
     <div style={{ padding: '20px' }}>
       <h1>GreenPoint - Dashboard de Energía Solar</h1>
 
-      <label>
-        Filtrar por estado:{' '}
+      <div className="filter-container">
         <select
+          className="filter-select"
           value={filterStatus}
           onChange={(event) => setFilterStatus(event.target.value)}
         >
-          <option value="Todos">Todos</option>
-          <option value="Activo">Activo</option>
-          <option value="Mantenimiento">Mantenimiento</option>
-          <option value="Pendiente">Pendiente</option>
+          <option value="Todos">Filtrar por estado: Todos</option>
+          <option value="Activo">Filtrar por estado: Activo</option>
+          <option value="Mantenimiento">Filtrar por estado: Mantenimiento</option>
+          <option value="Pendiente">Filtrar por estado: Pendiente</option>
         </select>
-      </label>
+      </div>
 
-      <div style={{ display: 'grid', gap: '15px', marginTop: '20px' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '15px', marginTop: '20px' }}>
         {filteredProjects.map((project) => (
           <div
             key={project.id}
-            style={{
-              border: '1px solid #ccc',
-              borderRadius: '8px',
-              padding: '15px',
-              backgroundColor: '#f9f9f9',
-            }}
+            className="project-card"
           >
             <h2>{project.name}</h2>
             <p><strong>Ubicación:</strong> {project.location}</p>
